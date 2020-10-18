@@ -2,4 +2,4 @@ function hello(name: string) {
   return `Hello, ${name}!`;
 }
 
-console.log(hello('Ann'));
+console.log(hello('world'));

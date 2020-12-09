@@ -5,7 +5,7 @@ export default function App({ Page, pageProps }: { Page: ComponentType<any>, pag
     return (
         <>
             <Head>
-                <title>Hello World - Aleph.js</title>
+                <title>Variable Names</title>
             </Head>
             <Page {...pageProps} />
         </>

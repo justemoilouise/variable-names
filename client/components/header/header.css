@@ -1,1 +1,32 @@
-.headerContainer {}
+.headerContainer {
+    width: 100%;
+}
+
+.headerContainerNav {
+    position: sticky;
+    top: 0;
+    padding: 8px 0;
+    font-size: 18px;
+}
+
+.headerContainerNavList {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: rgb(61, 58, 58);
+}
+
+.headerContainerNavListItem {
+    list-style: none;
+    font-weight: normal;
+    margin: 4px 16px 4px 0px;
+}
+
+.headerContainerNavListItem--active {
+    color: rgb(20, 19, 19);
+}
+
+.headerContainerNavListItem:hover,
+.headerContainerNavListItem--active {
+    font-weight: 700;
+}

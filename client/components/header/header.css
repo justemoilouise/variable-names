@@ -2,11 +2,24 @@
     width: 100%;
 }
 
+.headerContainerHeading {
+    display: flex;
+    align-items: center;
+}
+
+.headerContainerHeading h1 {
+    font-size: 40px;
+    margin-left: 18px;
+}
+
 .headerContainerNav {
     position: sticky;
     top: 0;
     padding: 8px 0;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .headerContainerNavList {

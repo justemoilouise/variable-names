@@ -4,7 +4,7 @@
 - [Docs](https://docs.google.com/document/d/1kMd7zG3f6MMpgSzNSOROIWyEemXOy7_8bDu5ZVvPqEs/edit?usp=sharing)
 
 ## Client
-The client-side runs on Deno, TypeScript, React and GraphQL
+The client-side runs on Deno, TypeScript, React and GraphQL. Built using Aleph.js - a framework for React.
 
 ## Server
 The server-side runs on Deno and uses Wordnik API to retrieve random words to use. 
